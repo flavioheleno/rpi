@@ -16,8 +16,14 @@ fixup_file=fixup_x.dat
 
 ## Capture video
 
-`/opt/vc/bin/raspivid -n -t 10000 -o video.mp4`
+`/opt/vc/bin/raspivid -n -t 10000 -o video.h264`
+
+`/opt/vc/bin/raspivid -n -ex auto -awb auto -w 1920 -h 1080 -fps 30 -b 1200000 -o video.h264`
 
 ## Stream video over TCP
 
-`/opt/vc/bin/raspivid -n -ih -t 0 -l -o tcp://0.0.0.0:3333 `
+`/opt/vc/bin/raspivid -n -ih -t 0 -l -o tcp://0.0.0.0:3333`
+
+## Stream video over RTSP (port 8554)
+
+`/opt/vc/bin/raspivid -o - -t 0 -ex auto -awb -hf -w 1920 -h 1080 -fps 30 -b 1200000 -n | cvlc -vvv stream:///dev/stdin --sout '#rtp{sdp=rtsp://:8554/}' :demux=h264`
