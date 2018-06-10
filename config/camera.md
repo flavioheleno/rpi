@@ -27,3 +27,7 @@ fixup_file=fixup_x.dat
 ## Stream video over RTSP (port 8554)
 
 `/opt/vc/bin/raspivid -o - -t 0 -ex auto -awb -hf -w 1920 -h 1080 -fps 30 -b 1200000 -n | cvlc -vvv stream:///dev/stdin --sout '#rtp{sdp=rtsp://:8554/}' :demux=h264`
+
+## Stream video to LCD Display
+
+`mplayer -nosound -framedrop -fs tv:///dev/video0 `
