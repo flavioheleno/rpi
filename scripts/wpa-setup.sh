@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
-set -e
+set -exo pipefail
 
 if [[ $# -ne 3 ]] ; then
    echo "Usage: $0 </dev/disk> <ssid> <passphase>"
