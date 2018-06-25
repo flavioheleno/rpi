@@ -12,6 +12,7 @@ It is based on RPi + ArchLinux (ARM) but should work in Raspbian and other distr
 
 - [config/camera.md](config/camera.md): Camera configuration
 - [config/network.md](config/network.md): Wired and wireless network configuration
+- [config/system.md](config/system.md): System general settings
 
 ## Scripts
 
