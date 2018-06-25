@@ -19,6 +19,10 @@ It is based on RPi + ArchLinux (ARM) but should work in Raspbian and other distr
 - [scripts/timezone.sh](scripts/timezone.sh): Sets TZ env variable to improve execution time ([article](https://blog.packagecloud.io/eng/2017/02/21/set-environment-variable-save-thousands-of-system-calls/))
 - [scripts/wpa-setup.sh](scripts/wpa-setup.sh): Setup WiFI before booting RPi ([forum](https://archlinuxarm.org/forum/viewtopic.php?f=31&t=11529))
 
+## Specs
+
+- [specs/LCD.md](specs/LCD.md): Waveshare 3.5inch RPi LCD (A)
+
 ## References
 
 - http://archpi.dabase.com/
