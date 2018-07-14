@@ -10,6 +10,10 @@ start_file=start_x.elf
 fixup_file=fixup_x.dat
 ```
 
+## Setup V4L2
+
+Add `bcm2835-v4l2` to `/etc/modules-load.d/rpi-camera.conf`.
+
 ## Capture photo
 
 `/opt/vc/bin/raspistill -o photo.jpg`
