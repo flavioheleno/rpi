@@ -24,6 +24,12 @@ hdmi_mode=87
 hdmi_cvt 800 480 60 6 0 0 0
 ```
 
+Add the following parameters to `/boot/cmdline.txt`:
+
+```
+fbcon=map:10 fbcon=font:ProFont6x11
+```
+
 Add the following lines to `/etc/X11/xorg.conf.d/99-fbturbo.conf`:
 
 ```
