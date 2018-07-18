@@ -24,6 +24,11 @@ hdmi_mode=87
 hdmi_cvt 800 480 60 6 0 0 0
 ```
 
+**notes**
+- `bcm2708-rpi-0-w.dtb` for RPi 0w
+- `bcm2709-rpi-2-b.dtb` for RPi 2b
+- `bcm2710-rpi-3-b.dtb` for RPi 3b
+
 Add the following parameters to `/boot/cmdline.txt`:
 
 ```
