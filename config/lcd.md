@@ -29,6 +29,12 @@ hdmi_cvt 800 480 60 6 0 0 0
 - `bcm2709-rpi-2-b.dtb` for RPi 2b
 - `bcm2710-rpi-3-b.dtb` for RPi 3b
 
+**performance**
+
+```
+dtoverlay=waveshare35a:speed=38000000,fps=30
+```
+
 Add the following parameters to `/boot/cmdline.txt`:
 
 ```
