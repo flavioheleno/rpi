@@ -21,7 +21,7 @@ device_tree_overlay=waveshare35a-overlay
 hdmi_group=2
 hdmi_mode=1
 hdmi_mode=87
-hdmi_cvt 800 480 60 6 0 0 0
+hdmi_cvt 480 320 60 6 0 0 0
 ```
 
 **notes**
@@ -32,7 +32,7 @@ hdmi_cvt 800 480 60 6 0 0 0
 **performance**
 
 ```
-dtoverlay=waveshare35a:speed=38000000,fps=30
+dtoverlay=waveshare35a:speed=38000000,fps=60
 ```
 
 Add the following parameters to `/boot/cmdline.txt`:
@@ -61,4 +61,18 @@ Section "InputClass"
   MatchProduct  "ADS7846 Touchscreen"
   Option        "Calibration"         "3900 240 3900 240"
 EndSection
+```
+
+## Operation
+
+**Turn off backlight** (Official RPF 7" Touch Screen only!)
+
+```bash
+echo 0 > /sys/class/backlight/rpi_backlight/bl_power
+```
+
+**Turn on backlight** (Official RPF 7" Touch Screen only!)
+
+```bash
+echo 1 > /sys/class/backlight/rpi_backlight/bl_power
 ```
