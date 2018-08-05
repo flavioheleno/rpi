@@ -23,3 +23,7 @@ Pin                            | Symbol           | Description
 
 - [AUR](https://aur.archlinux.org/packages/waveshare35a/)
 - [Waveshare](https://www.waveshare.com/wiki/3.5inch_RPi_LCD_(A)#Driver)
+
+## Links
+
+- https://github.com/swkim01/waveshare-dtoverlays/blob/master/waveshare35a-overlay.dts
