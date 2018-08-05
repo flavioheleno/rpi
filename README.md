@@ -11,6 +11,7 @@ It is based on RPi + ArchLinux (ARM) but should work in Raspbian and other distr
 ## Configuration
 
 - [config/camera.md](config/camera.md): Camera configuration
+- [config/lcd.md](config/lcd.md): LCD (SPI) configuration
 - [config/network.md](config/network.md): Wired and wireless network configuration
 - [config/system.md](config/system.md): System general settings
 
@@ -22,7 +23,7 @@ It is based on RPi + ArchLinux (ARM) but should work in Raspbian and other distr
 
 ## Specs
 
-- [specs/LCD.md](specs/LCD.md): Waveshare 3.5inch RPi LCD (A)
+- [specs/LCD-WS35.md](specs/LCD-WS35.md): Waveshare 3.5inch RPi LCD (A)
 
 ## References
 
