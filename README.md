@@ -30,3 +30,4 @@ It is based on RPi + ArchLinux (ARM) but should work in Raspbian and other distr
 - http://elinux.org/RPiconfig
 - http://tutos.readthedocs.io/en/latest/source/RPi.html
 - https://wiki.archlinux.org/index.php/Raspberry_Pi
+- https://www.kernel.org/doc/Documentation/fb/api.txt
