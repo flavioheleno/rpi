@@ -25,6 +25,10 @@ It is based on RPi + ArchLinux (ARM) but should work in Raspbian and other distr
 
 - [specs/LCD-WS35.md](specs/LCD-WS35.md): Waveshare 3.5inch RPi LCD (A)
 
+## Other
+
+- [DASHBOARD.md](DASHBOARD.md): Dashboard screen using RPi
+
 ## References
 
 - http://archpi.dabase.com/
