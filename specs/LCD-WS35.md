@@ -27,3 +27,6 @@ Pin                            | Symbol           | Description
 ## Links
 
 - https://github.com/swkim01/waveshare-dtoverlays/blob/master/waveshare35a-overlay.dts
+- https://www.willprice.org/2017/09/16/adventures-with-tft-screens-for-raspberry-pi.html
+- https://github.com/goodtft/LCD-show
+- https://github.com/juj/fbcp-ili9341
