@@ -32,3 +32,8 @@ sudo systemctl stop avahi-daemon
 sudo systemctl disable avahi-daemon
 sudo systemctl disable avahi-daemon.socket
 ```
+
+## Sources
+
+- https://github.com/timperrett/hashpi/blob/master/bootstrap.yml
+- https://github.com/raspberrypi/firmware/blob/master/boot/overlays/README
