@@ -29,6 +29,12 @@ It is based on RPi + ArchLinux (ARM) but should work in Raspbian and other distr
 
 - [DASHBOARD.md](DASHBOARD.md): Dashboard screen using RPi
 
+## Video APIs
+
+- https://www.raspberrypi.org/forums/viewtopic.php?f=28&t=5621
+- https://elinux.org/Raspberry_Pi_VideoCore_APIs
+- http://jonmacey.blogspot.com/2012/05/getting-started-with-egl-on-raspberry.html
+
 ## References
 
 - http://archpi.dabase.com/
@@ -37,3 +43,5 @@ It is based on RPi + ArchLinux (ARM) but should work in Raspbian and other distr
 - https://wiki.archlinux.org/index.php/Raspberry_Pi
 - https://www.kernel.org/doc/Documentation/fb/api.txt
 - https://www.raspberrypi.org/documentation/hardware/raspberrypi/revision-codes/README.md
+- https://github.com/raspberrypi/userland
+- https://github.com/raspberrypi/firmware
