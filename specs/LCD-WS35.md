@@ -1,5 +1,7 @@
 # Waveshare 3.5inch RPi LCD (A), 320×480
 
+LCD Controller: ILI9486L
+
 ## Pins
 
 Pin                            | Symbol           | Description
